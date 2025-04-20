@@ -8,11 +8,7 @@ step = 0
 while swapped:
     swapped = False
     print("*****")
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> abc6f5ff0e2b20d44f736240634f8321d0bfa1a5
 for i in range(len(nums) - 1 - step):
     print("i = ", i)
     if nums[i] > nums[i + 1]:
@@ -20,11 +16,7 @@ for i in range(len(nums) - 1 - step):
         nums[i], nums[i + 1] = nums[i + 1], nums[i]
         # Устанавливаем swapped в True для следующей итерации
     swapped = True
-<<<<<<< HEAD
-=======
-=======
 
->>>>>>> abc6f5ff0e2b20d44f736240634f8321d0bfa1a5
     for i in range(len(nums) - 1 - step):
         print("i = ", i)
         if nums[i] > nums[i + 1]:
@@ -32,10 +24,6 @@ for i in range(len(nums) - 1 - step):
             nums[i], nums[i + 1] = nums[i + 1], nums[i]
             # Устанавливаем swapped в True для следующей итерации
             swapped = True
-<<<<<<< HEAD
->>>>>>> 288fbf03984cacbe649f811f69f8e412f654de58
-=======
 
->>>>>>> abc6f5ff0e2b20d44f736240634f8321d0bfa1a5
     step += 1
 print("after sort = ", nums)
